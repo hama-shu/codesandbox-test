@@ -1,0 +1,38 @@
+Arguments: 
+  /usr/local/bin/node /opt/yarn-v1.22.19/bin/yarn.js install
+
+PATH: 
+  /project/home/pitcher-host/.local/state/fnm_multishells/1444_1697946302299/bin:/usr/share/fnm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, open '/project/.cache/yarn/v6/npm-to-regex-range-5.0.1-1648c44aae7c8d988a326018ed72f5b4dd0392e4-integrity/node_modules/to-regex-range/.yarn-tarball.tgz'
+
+npm manifest: 
+  {
+    "name": "vanilla-parcel-2",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+      "start": "parcel ./src/index.html",
+      "build": "parcel build ./src/index.html"
+    },
+    "devDependencies": {
+      "parcel": "^2.0.0"
+    },
+    "keywords": []
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
